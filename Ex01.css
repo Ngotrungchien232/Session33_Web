@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+.password-container {
+  /* biểu tượng con mắt  */
+  position: relative;
+
+  width: 300px;
+}
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+/* định dạng cho biểu tượng con mắt  */
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  /*dịch chuyển lên trên 50% để có tỉ lệ thích hợp   */
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #888;
+}

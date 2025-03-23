@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Ex03.css" />
+  </head>
+  <body>
+    <h1>Lọc Sản Phẩm Theo Danh Mục</h1>
+    <div class="filter-section">
+      <div>
+        <label for="categorySelect">Danh mục:</label>
+        <select id="categorySelect">
+          <option value="">-- Chọn --</option>
+          <option value="Đồ ăn">Đồ ăn</option>
+          <option value="Nước">Nước</option>
+          <option value="Dụng cụ">Dụng cụ</option>
+        </select>
+      </div>
+      <div>
+        <label for="typeSelect">Loại (đồ ăn):</label>
+        <select id="typeSelect">
+          <option value="">-- Chọn --</option>
+          <option value="Rau sạch">Rau sạch</option>
+          <option value="Thịt lợn">Thịt lợn</option>
+        </select>
+      </div>
+    </div>
+    <div class="product-list" id="productList"></div>
+    <script src="Ex03.js"></script>
+  </body>
+</html>
